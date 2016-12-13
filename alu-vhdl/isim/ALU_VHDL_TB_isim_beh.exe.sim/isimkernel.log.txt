@@ -1,0 +1,5 @@
+Command line:
+   ALU_VHDL_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53827

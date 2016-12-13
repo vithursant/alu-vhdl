@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_isim_beh.exe" -prj "H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_beh.prj" "work.ALU_VHDL_TB" 

@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml alu_VHDL_1bit.twx alu_VHDL_1bit.ncd -o alu_VHDL_1bit.twr
+alu_VHDL_1bit.pcf -ucf alu_VHDL_1bit_UCF.ucf
+
+Design file:              alu_VHDL_1bit.ncd
+Physical constraint file: alu_VHDL_1bit.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |Cout           |    8.305|
+A              |S              |    8.249|
+B              |Cout           |    8.322|
+B              |S              |    8.266|
+Cin            |Cout           |    8.635|
+Cin            |S              |    8.579|
+S0             |Cout           |   11.863|
+S0             |S              |   11.807|
+S1             |Cout           |   11.112|
+S1             |S              |   11.056|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Jan 31 16:49:58 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 217 MB
+
+
+

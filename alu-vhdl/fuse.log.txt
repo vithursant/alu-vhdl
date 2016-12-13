@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_isim_beh.exe -prj H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_beh.prj work.ALU_VHDL_TB 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/ENGG3050/ALU_VHDL/alu_VHDL.vhd" into library work
+WARNING:HDLCompiler:946 - "H:/ENGG3050/ALU_VHDL/alu_VHDL.vhd" Line 163: Actual for formal port b2 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "H:/ENGG3050/ALU_VHDL/alu_VHDL.vhd" Line 164: Actual for formal port b1 is neither a static name nor a globally static expression
+Parsing VHDL file "H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Mux8to1 [mux8to1_default]
+Compiling architecture dataflow of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity alu_VHDL_1bit [alu_vhdl_1bit_default]
+Compiling architecture behavioral of entity SevenSeg [sevenseg_default]
+Compiling architecture behavioral of entity alu_VHDL_4bit [alu_vhdl_4bit_default]
+Compiling architecture behavior of entity alu_vhdl_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_isim_beh.exe
+Fuse Memory Usage: 29740 KB
+Fuse CPU Usage: 483 ms

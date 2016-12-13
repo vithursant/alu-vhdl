@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"\\south.cfs.uoguelph.ca\soe-undergradhome$\gthoms\ENGG3050\ALU_VHDL\alu_VHDL.vhd" Line 163: Actual for formal port <arg fmt="%s" index="1">b2</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"\\south.cfs.uoguelph.ca\soe-undergradhome$\gthoms\ENGG3050\ALU_VHDL\alu_VHDL.vhd" Line 164: Actual for formal port <arg fmt="%s" index="1">b1</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\south.cfs.uoguelph.ca\soe-undergradhome$\gthoms\ENGG3050\ALU_VHDL\alu_VHDL.vhd" Line 158: Assignment to <arg fmt="%s" index="1">b_not_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\south.cfs.uoguelph.ca\soe-undergradhome$\gthoms\ENGG3050\ALU_VHDL\alu_VHDL.vhd" Line 159: Assignment to <arg fmt="%s" index="1">a_not_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ci</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_SevenSegDisplay</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+</messages>
+

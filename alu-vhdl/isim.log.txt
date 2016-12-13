@@ -1,0 +1,9 @@
+ISim log file
+Running: H:\ENGG3050\ALU_VHDL\ALU_VHDL_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb H:/ENGG3050/ALU_VHDL/ALU_VHDL_TB_isim_beh.wdb 
+FATAL ERROR: PrivateChannel: Error creating client socket.
+Time resolution is 1 fs
+# onerror resume
+# wave add /
+No active Database
+# run 200 ns
+Unable to execute live simulation command.
